@@ -97,7 +97,7 @@ Lin, Benedict  and Heah, Carmel  and  Morgado da Costa, Luís and Kuribayashi, T
 
 <br>
 
-The corpus is provided in a simple XML schema. The corpus is organized in three main layers: documents, sentences and words. Errors are SubElements of sentences but are explicitely linked to any number of words in that sentence. A mapping to the full description of error labels is provided above (and in even greater detail in the reference [paper](https://aclanthology.org/W17-5901/)). Here is a simple example:
+The corpus is provided in a simple XML schema. The corpus is organized in three main layers: documents, sentences and words. Errors are SubElements of sentences, but are explicitly linked to any number of words in that sentence. A mapping to the full description of error labels is provided above (and in even greater detail in the reference [paper](https://aclanthology.org/W17-5901/)). Here is a simple example of the XML:
 
 ```
 <Corpus corpusID="ntucle-h" title="NTU Corpus of Learner English (Human Annotation)" language="eng"> 
