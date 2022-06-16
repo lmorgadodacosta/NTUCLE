@@ -9,7 +9,7 @@ The main goal of this corpus was to develop the LCC-NTU English Writing Support 
 The corpus contains 180 documents hand-tagged by professional English lecturers. One third (60) of the documents were tagged by two lecturers. Documents that were annotated by two people had their error tags harmonized/adjudicated. A list of documents and whether they have been double annotated can be found in the file [annot_doc.tsv](annot_doc.tsv).
 
 
-You can read a full description of the corpus, of the new error tag set and annotation process in this 
+You can read a full description of the corpus, of the new error tag set and of its annotation process in our 
  [paper](https://aclanthology.org/W17-5901/).
 
 
