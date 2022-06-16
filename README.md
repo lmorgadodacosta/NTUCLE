@@ -10,6 +10,9 @@ You can read a full description of the corpus, of the new error tag set and anno
  [paper](https://aclanthology.org/W17-5901/).
 
 
+This corpus (along with all its annotations) is released under a [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+
+
 <br> 
 
 The canonical citation for this corpus is:
@@ -86,3 +89,46 @@ Lin, Benedict  and Heah, Carmel  and  Morgado da Costa, Luís and Kuribayashi, T
 | WMiss     | Missing words                                              | Words (lexical)        |
 | WUnn      | Unnecessary words                                          | Words (lexical)        |
 | Oth       | Other errors requiring correction                          | Others                 |
+
+
+
+<br>
+
+The corpus is provided in a simple XML schema. The corpus is organized in three main layers: documents, sentences and words. Errors are SubElements of sentences but are explicitely linked to any number of words in that sentence. A mapping to the full description of error labels is provided above (and in even greater detail in the reference [paper](https://aclanthology.org/W17-5901/)). Here is a simple example:
+
+```
+<Corpus corpusID="ntucle-h" title="NTU Corpus of Learner English (Human Annotation)" language="eng"> 
+  <Document docID="d0" comment="orig_docid:1">
+
+    (...)
+
+    <Sentence sid="d0s20" sent="The most important benefit of using these advanced curtains is the energy savings that it would provide." comment="origSID/PID=21">
+      <Word wid="d0s20w0" sform="The" lemma="the" pos="DT"/>
+      <Word wid="d0s20w1" sform="most" lemma="most" pos="RBS"/>
+      <Word wid="d0s20w2" sform="important" lemma="important" pos="JJ"/>
+      <Word wid="d0s20w3" sform="benefit" lemma="benefit" pos="NN"/>
+      <Word wid="d0s20w4" sform="of" lemma="of" pos="IN"/>
+      <Word wid="d0s20w5" sform="using" lemma="use" pos="VBG"/>
+      <Word wid="d0s20w6" sform="these" lemma="these" pos="DT"/>
+      <Word wid="d0s20w7" sform="advanced" lemma="advanced" pos="JJ"/>
+      <Word wid="d0s20w8" sform="curtains" lemma="curtain" pos="NNS"/>
+      <Word wid="d0s20w9" sform="is" lemma="be" pos="VBZ"/>
+      <Word wid="d0s20w10" sform="the" lemma="the" pos="DT"/>
+      <Word wid="d0s20w11" sform="energy" lemma="energy" pos="NN"/>
+      <Word wid="d0s20w12" sform="savings" lemma="savings" pos="NNS"/>
+      <Word wid="d0s20w13" sform="that" lemma="that" pos="IN"/>
+      <Word wid="d0s20w14" sform="it" lemma="it" pos="PRP"/>
+      <Word wid="d0s20w15" sform="would" lemma="would" pos="MD"/>
+      <Word wid="d0s20w16" sform="provide" lemma="provide" pos="VB"/>
+      <Word wid="d0s20w17" sform="." lemma="." pos="."/>
+      <Error eid="d0s20e0" label="ProAgr" wids="d0s20w6, d0s20w7, d0s20w8, d0s20w14" user="annot_6"/>
+    </Sentence>
+
+    (...)
+
+  </Document>
+
+    (...)
+
+</Corpus>
+```
