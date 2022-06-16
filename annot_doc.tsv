@@ -1,0 +1,181 @@
+docid	orig_docid	annot_X	annot_Y
+0	1	annot_6	
+1	4	annot_3	
+2	5	annot_2	
+3	10	annot_3	annot_4
+4	14	annot_4	
+5	15	annot_1	
+6	17	annot_4	
+7	18	annot_3	
+8	19	annot_2	
+9	20	annot_4	
+10	21	annot_2	annot_3
+11	23	annot_2	
+12	25	annot_5	
+13	26	annot_1	annot_2
+14	28	annot_3	
+15	29	annot_1	
+16	30	annot_5	
+17	31	annot_3	
+18	32	annot_2	
+19	35	annot_2	
+20	38	annot_3	
+21	39	annot_5	
+22	42	annot_2	annot_3
+23	44	annot_3	
+24	45	annot_1	
+25	46	annot_4	
+26	47	annot_1	annot_6
+27	48	annot_3	annot_4
+28	49	annot_5	annot_6
+29	50	annot_4	
+30	51	annot_6	
+31	52	annot_1	annot_6
+32	53	annot_3	
+33	55	annot_5	
+34	57	annot_3	
+35	58	annot_6	
+36	59	annot_2	
+37	60	annot_1	annot_2
+38	62	annot_2	
+39	63	annot_6	
+40	66	annot_2	annot_3
+41	69	annot_4	annot_5
+42	70	annot_1	
+43	72	annot_1	
+44	73	annot_5	
+45	76	annot_3	annot_4
+46	77	annot_4	
+47	79	annot_4	
+48	80	annot_4	annot_5
+49	81	annot_6	
+50	83	annot_5	
+51	85	annot_3	annot_4
+52	86	annot_6	
+53	87	annot_4	annot_5
+54	88	annot_1	annot_6
+55	89	annot_2	
+56	91	annot_5	annot_6
+57	92	annot_3	
+58	93	annot_3	
+59	95	annot_2	
+60	96	annot_1	
+61	97	annot_6	
+62	98	annot_2	annot_3
+63	99	annot_2	
+64	100	annot_5	
+65	102	annot_4	
+66	106	annot_1	annot_2
+67	107	annot_1	annot_2
+68	108	annot_2	annot_3
+69	109	annot_2	annot_3
+70	110	annot_1	
+71	111	annot_5	annot_6
+72	112	annot_3	
+73	115	annot_1	
+74	116	annot_4	
+75	118	annot_3	annot_4
+76	121	annot_5	
+77	122	annot_1	
+78	124	annot_5	annot_6
+79	125	annot_1	annot_6
+80	126	annot_3	
+81	130	annot_3	annot_4
+82	131	annot_1	annot_6
+83	134	annot_5	
+84	135	annot_2	annot_3
+85	137	annot_5	annot_6
+86	138	annot_5	annot_6
+87	139	annot_2	
+88	140	annot_4	
+89	142	annot_4	
+90	143	annot_1	
+91	144	annot_1	annot_2
+92	145	annot_1	annot_6
+93	146	annot_1	annot_6
+94	148	annot_5	
+95	149	annot_4	annot_5
+96	151	annot_6	
+97	152	annot_5	
+98	153	annot_5	annot_6
+99	154	annot_1	
+100	155	annot_5	annot_6
+101	156	annot_1	
+102	157	annot_3	
+103	158	annot_5	
+104	159	annot_6	
+105	161	annot_5	annot_6
+106	162	annot_5	
+107	164	annot_4	annot_5
+108	167	annot_5	
+109	169	annot_2	annot_3
+110	171	annot_4	
+111	172	annot_4	
+112	174	annot_4	
+113	175	annot_1	
+114	181	annot_3	
+115	182	annot_1	
+116	183	annot_3	
+117	184	annot_5	
+118	185	annot_5	annot_6
+119	187	annot_1	annot_2
+120	188	annot_2	
+121	189	annot_1	annot_6
+122	190	annot_2	
+123	191	annot_4	
+124	192	annot_2	
+125	196	annot_1	annot_2
+126	198	annot_6	
+127	199	annot_2	
+128	201	annot_1	annot_6
+129	202	annot_1	
+130	203	annot_3	
+131	204	annot_5	
+132	205	annot_1	
+133	206	annot_4	annot_5
+134	207	annot_1	annot_2
+135	208	annot_4	annot_5
+136	210	annot_3	annot_4
+137	212	annot_2	annot_3
+138	213	annot_6	
+139	214	annot_6	
+140	215	annot_6	
+141	216	annot_2	
+142	217	annot_6	
+143	218	annot_6	
+144	220	annot_6	
+145	222	annot_6	
+146	223	annot_4	
+147	225	annot_1	annot_2
+148	226	annot_1	
+149	227	annot_1	
+150	229	annot_4	
+151	231	annot_4	
+152	232	annot_3	
+153	236	annot_4	annot_5
+154	238	annot_3	
+155	239	annot_2	
+156	240	annot_1	annot_6
+157	243	annot_3	
+158	247	annot_4	annot_5
+159	248	annot_5	
+160	249	annot_5	
+161	250	annot_3	
+162	251	annot_4	
+163	252	annot_2	annot_3
+164	253	annot_6	
+165	254	annot_3	annot_4
+166	255	annot_6	
+167	257	annot_5	
+168	259	annot_2	
+169	260	annot_4	
+170	262	annot_6	
+171	263	annot_1	
+172	264	annot_1	
+173	265	annot_2	
+174	266	annot_2	
+175	268	annot_3	annot_4
+176	269	annot_1	annot_2
+177	270	annot_3	annot_4
+178	271	annot_4	annot_5
+179	272	annot_5	
